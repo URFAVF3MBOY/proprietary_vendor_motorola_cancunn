@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <AT_MODE>true</AT_MODE>
+    <SETTINGS cameraid="0">
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT1 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,78,10000,3750000,0,1,0,0,26,1,1,0</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B1</TITLE>
+            <START>AT+ERFTX=6,0,1,1,2,19500,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B7</TITLE>
+            <START>AT+ERFTX=6,0,1,7,2,25400,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B41</TITLE>
+            <START>AT+ERFTX=6,0,1,41,2,26870,1,0,0,0,25,0,26,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2412 20 19</TITLE>
+            <START>1,0,1,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2442 20 19</TITLE>
+            <START>1,0,7,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2472 20 19</TITLE>
+            <START>1,0,13,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+    </SETTINGS>
+
+    <SETTINGS cameraid="1">
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT1 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,78,10000,3750000,0,1,0,0,26,1,1,0</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B1</TITLE>
+            <START>AT+ERFTX=6,0,1,1,2,19500,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B7</TITLE>
+            <START>AT+ERFTX=6,0,1,7,2,25400,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B41</TITLE>
+            <START>AT+ERFTX=6,0,1,41,2,26870,1,0,0,0,25,0,26,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2412 20 19</TITLE>
+            <START>1,0,1,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2442 20 19</TITLE>
+            <START>1,0,7,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2472 20 19</TITLE>
+            <START>1,0,13,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+    </SETTINGS>
+
+    <SETTINGS cameraid="2">
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT1 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,78,10000,3750000,0,1,0,0,26,1,1,0</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B1</TITLE>
+            <START>AT+ERFTX=6,0,1,1,2,19500,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B7</TITLE>
+            <START>AT+ERFTX=6,0,1,7,2,25400,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B41</TITLE>
+            <START>AT+ERFTX=6,0,1,41,2,26870,1,0,0,0,25,0,26,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2412 20 19</TITLE>
+            <START>1,0,1,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2442 20 19</TITLE>
+            <START>1,0,7,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2472 20 19</TITLE>
+            <START>1,0,13,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+    </SETTINGS>
+
+    <SETTINGS-VIDEO cameraid="0" ois_type="SOIS" skutag="ROWE">
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT5 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,0,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="AT">
+            <TITLE>NR ANT1 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,2,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT1 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,78,10000,3750000,0,1,0,0,26,1,1,0</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT8 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,3,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 LOW</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3350000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 MID</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3550000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR ANT2 HIGH</TITLE>
+            <START>AT+EGMC=1,"NrAntSwAging",2,77,100000,3750000,0,273,1,1,26,42,4,1</START>
+            <STOP>AT+EGMC=1,"NrAntSwAging",0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B1</TITLE>
+            <START>AT+ERFTX=6,0,1,1,2,19500,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B7</TITLE>
+            <START>AT+ERFTX=6,0,1,7,2,25400,1,0,0,0,25,0,24,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+		 <COMMAND>
+            <TITLE>LTE B41</TITLE>
+            <START>AT+ERFTX=6,0,1,41,2,26870,1,0,0,0,25,0,26,0,0</START>
+            <STOP>AT+ERFTX=6,0,0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2412 20 19</TITLE>
+            <START>1,0,1,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2442 20 19</TITLE>
+            <START>1,0,7,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+        <COMMAND cmd_type="EM">
+            <TITLE>2.4G 2472 20 19</TITLE>
+            <START>1,0,13,0,0,0,0,1024,38,0,0,0,0,50,0,1,0,65535</START>
+            <STOP>0</STOP>
+        </COMMAND>
+    </SETTINGS-VIDEO>
+</CONFIG>
